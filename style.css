@@ -1,0 +1,589 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+/*roboto font */
+html,body{
+    font-family : 'Roboto', sans-serif;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*section :navbar */
+
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 0.75px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#navbar .logo img{
+    width: 300px;
+    margin-left: 150px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+}
+
+#navbar ul li a{
+    color: dimgray;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: aqua;
+}
+
+/*utility classes*/
+
+.venom{
+    max-width: 1015px;
+    zoom: 1;
+    position:relative;
+   margin: auto;
+}
+
+
+/*section : primaire */
+
+#primaire .pri-uno{
+    display: block;
+    background-color: white;
+}
+
+#primaire .pri-uno img{
+    width: 50px;
+    margin-left: 490px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#primaire .pri-uno h1{
+   font-family:'Roboto', sans-serif ;
+   word-spacing: 1px;
+   font-size: 35px;
+   text-align: center;
+   color:#00b39b;
+}
+
+#para{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 170px;
+
+}
+
+#para .graph p{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #747474;
+}
+
+#para .ara p{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #747474;
+}
+
+/*section : block-star */
+#star-content{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 40px;
+}
+
+#star-content .patients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: 1px ;
+    border-radius: 10px;
+    height: 345px;
+    width: 320px;
+    background-color:darkcyan;
+    color: white;
+}
+
+.patients .patients1{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.patients .ss-sa img{
+    width: 24px;
+}
+
+.patients .ss-sa h1{
+    font-size: 25px;
+    word-spacing: 1px;
+    margin-top: 10px;
+}
+
+.patients .ss-sa p{
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.6;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.patients .ss-sb .domaine-one{
+    text-decoration: underline;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 35px;
+   font-size: 20px;
+   word-spacing: 2px;
+   line-height: 1.2;
+   color: white;  
+}
+
+.domaine-one option{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: black;
+}
+
+#star-content .docters{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:relative;
+    border: 1px;
+    border-radius: 10px;
+    height: 345px;
+    width: 320px;
+    background-color: royalblue;
+    color: white;
+}
+
+.docters .docters-anne{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.docters .ss-sc img{
+    width: 24px;
+}
+
+.docters .ss-sc h1{
+    font-size: 25px;
+    word-spacing: 1px;
+    margin-top: 10px;
+}
+
+.docters .ss-sc p{
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.6;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.docters .ss-sd .domaine-2{
+    text-decoration: underline;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: absolute;
+    bottom: 35px;
+   font-size: 20px;
+   word-spacing: 2px;
+   line-height: 1.2;
+   color: white; 
+}
+
+.domaine-2 option{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: black;
+}
+
+#star-content .clinique{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border: 1px;
+    border-radius: 10px;
+    height: 345px;
+    width: 320px;
+    background-color: rgb(0,0,0,0.8);
+    color: white;
+}
+
+.clinique .clinique-one{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.clinique .ss-se img{
+    width: 24px;
+}
+
+.clinique .ss-se h1{
+    font-size: 25px;
+    word-spacing: 1px;
+    margin-top: 10px;
+}
+
+.clinique .ss-se p{
+    text-align: justify;
+    font-size: 25px;
+    line-height: 1.6;
+    word-spacing: 2px;
+    font-weight: 500;
+}
+
+.clinique .ss-sf{
+    display: block;
+    position: absolute;
+}
+
+.clinique .ss-sf .domaine-3,
+.clinique .ss-sf .domaine-4{
+    text-decoration: underline;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+   font-size: 20px;
+   word-spacing: 2px;
+   line-height: 1.2;
+   color: white;
+   margin-bottom: 25px;
+   margin-top: 10px;
+}
+
+.domaine-3 option{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: black;
+}
+.domaine-4 option{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: black;
+}
+
+/*section : three*/
+
+#three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#three .weare p{
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: darkcyan;
+}
+
+#three .zen ul{
+    list-style: none;
+    display: flex;
+}
+
+#three .zen ul li {
+    color: #747474;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#three .zen ul li:hover{
+    color: aqua;
+}
+
+/*section : four */
+
+#four{
+   background: #e5faf8;
+   background-image: rgba(0,204,177,01);
+   overflow: hidden;  
+}
+
+#four .four-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thenn{
+    width: 50%;
+    margin-left: 160px;
+    position: relative;
+    overflow: visible;
+   }
+
+.azerty h1{
+    font-size: 33px;
+    color:rgba(0,204,177,01) ;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    font-style: normal;
+    margin-top: 70px;
+}
+
+.thenn p{
+    font-size: 14px;
+    margin-top: 20px;
+    color:#747474;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-weight:bold ;
+
+}
+
+.forceimg{
+    background: url(https://www.docplanner.com/img/logo.png) no-repeat;
+    width: 456px;
+    height: 435px;
+    transform: translate(-160px,100px);
+    margin-left: 40px;
+    }
+
+.noon{
+    width: 50%;
+    margin-right: 160px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+
+
+/* main block section : four*/
+
+.imgfour{
+    width: 40px;
+    height: 45px;
+    border: 0;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.leader{
+    border: 1px;
+    background-color: white;
+    border-radius: 10px;
+    height: 260px;
+    width: 240px;
+}
+
+.hsec{
+    color:#00b39b;
+    text-align: center;
+    margin-top: 10px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.prem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #747474;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lead-1{
+    transform: translate(10px,30px);
+}
+
+.lead-2{
+    transform: translate(10px,-20px);
+}
+
+.lead-3{
+    transform: translate(0px,-10px);
+}
+
+.lead-4{
+    transform: translateY(-60px);
+}
+
+/*section : section-inner*/
+#section-inner{
+    background-color: white;
+}
+
+#section-inner .inner-content{
+    display: block;
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}
+
+.h-content{
+    color:#00b39b ;
+    font-size: 32px;
+    text-align: center;
+  }
+.p-content{
+    color:#747474 ;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.boxes-offices .offices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+.role{
+    transform: translateX(-352px);
+}
+
+.luxes{
+    background: white;
+    width: 348px;
+    height: 348px;
+    border: 1px solid #faf7f7;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 311px;
+    position: relative;
+    display: block;
+    color: #747474;
+    box-shadow: 0.5px 10px transparent;
+    transition: 2s ease;
+    margin-bottom: 20px;
+}
+
+
+.office_image img{
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.office-on{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.on-content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #747474;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(34, 180, 238);
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 10px;
+    font-style: bold;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+.contact-liste{
+    background-color: white;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.h1-contact{
+    font-size: 28px;
+    color:black;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+
+
+.btn-cont{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(34, 180, 238);
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: bold;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-cont:hover{
+    background-color: blue;
+}
+
+/*section: footer*/
+
+.main-footer{
+    background-color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid #c9c6c6;
+}
+
+.footer-test p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: #747474;
+    margin: 1.6em 0;
+}
+
+.footer-test a{
+    text-decoration: none;
+}
+
+
+
