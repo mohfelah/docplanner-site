@@ -26,17 +26,18 @@ html,body{
     position: sticky;
     top: 0px;
     z-index: 1;
+    width: 100%;
 }
 
 #navbar .logo img{
     width: 300px;
-    margin-left: 150px;
+    margin-left: 220px;
 }
 
 #navbar ul{
     display: flex;
     list-style: none;
-    margin-right: 200px;
+    margin-right: 240px;
 }
 
 #navbar ul li a{
@@ -64,6 +65,7 @@ html,body{
 #primaire .pri-uno{
     display: block;
     background-color: white;
+    margin-bottom: 5rem;
 }
 
 #primaire .pri-uno img{
@@ -85,9 +87,7 @@ html,body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 160px;
-    margin-right: 170px;
-
+    margin-bottom: 5rem;
 }
 
 #para .graph p{
@@ -333,33 +333,33 @@ html,body{
 
 #four .four-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 250px;
 }
 
 .thenn{
     width: 50%;
-    margin-left: 160px;
     position: relative;
     overflow: visible;
    }
 
 .azerty h1{
-    font-size: 33px;
+    font-size: 30px;
     color:rgba(0,204,177,01) ;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 1.3;
     font-style: normal;
     margin-top: 70px;
 }
 
 .thenn p{
-    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     margin-top: 20px;
     color:#747474;
     letter-spacing: 1px;
     line-height: 1.6;
-    font-weight:bold ;
-
 }
 
 .forceimg{
@@ -387,7 +387,7 @@ html,body{
     width: 40px;
     height: 45px;
     border: 0;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 40px;
 }
 
@@ -396,7 +396,8 @@ html,body{
     background-color: white;
     border-radius: 10px;
     height: 260px;
-    width: 240px;
+    width: 220px;
+    position: absolute;
 }
 
 .hsec{
@@ -417,19 +418,19 @@ html,body{
 }
 
 .lead-1{
-    transform: translate(10px,30px);
+    transform: translate(-5px,-140px);
 }
 
 .lead-2{
-    transform: translate(10px,-20px);
+    transform: translate(-5px,140px);
 }
 
 .lead-3{
-    transform: translate(0px,-10px);
+    transform: translate(240px,-170px);
 }
 
 .lead-4{
-    transform: translateY(-60px);
+    transform: translate(240px,110px);
 }
 
 /*section : section-inner*/
